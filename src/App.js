@@ -1,8 +1,11 @@
-
+import Nav from './components/Nav';
+import './App.scss';
 
 function App() {
   return (
-    <div>Hello World!</div>
+    <div className="main">
+      <Nav />
+    </div>
   );
 }
 
