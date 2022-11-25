@@ -1,18 +1,43 @@
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Nav.scss';
+import planet from '../images/planet.png';
+import '../styles/NavBar.css';
 
-const Nav = () => (
-  <div className="nav">
-    <div className="nav__logo">
-      <img className="nav__image" src="/img/planet.png" alt="planet" />
-      Space Travelers&apos; Hub
-    </div>
-    <div className="nav__links">
-      <NavLink to="/">Rockets</NavLink>
-      <NavLink to="/">Missions</NavLink>
-      <NavLink to="/">My Profile</NavLink>
-    </div>
-  </div>
-);
+const Nav = () => {
+  const links = [
+    {
+      id: 1,
+      path: '/',
+      text: 'Rockets',
+    },
+    {
+      id: 2,
+      path: '/missions',
+      text: 'Missions',
+    },
+    {
+      id: 3,
+      path: '/profile',
+      text: 'My Profile',
+    },
+  ];
+  return (
+    <header className="header">
+      <div className="logo-title">
+        <img src={planet} alt="planet-icon" className="logo-img" />
+        <h1>Space Traveler&apos;s Hub</h1>
+      </div>
+      <nav>
+        <ul className="pages">
+          {links.map((link) => (
+            <li id={link.id} key={link.id} className={`child${link.id}`}>
+              <NavLink to={link.path} className={({ isActive }) => (isActive ? 'navBar-link selected' : 'navBar-link')}>{link.text}</NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+  );
+};
 
 export default Nav;
