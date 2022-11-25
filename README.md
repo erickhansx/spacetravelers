@@ -1,89 +1,70 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# Getting Started with Create React App
 
-# Space Travelers
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-You can see several images with a description about missions, rockets and you can simulate making a reservation and you can also see your reservation on your profile.
+## Available Scripts
 
-## Built With
+In the project directory, you can run:
 
-Technologies
+### `npm start`
 
-- React
-- Redux
-- JavaScript
-- Jest
-- API
-- gitFlow
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-# Live Demo
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-[Demo](https://dulcet-twilight-9863dc.netlify.app)
+### `npm test`
 
-## Getting Started
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-To get a local copy up and running follow these simple example steps.
+### `npm run build`
 
-### Setup
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-run the following commands in your terminal
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- git clone https://github.com/erickhansx/spacetravelers
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- git checkout main
+### `npm run eject`
 
-### Installation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-you can install the following linters into your proejct through node, by these commands:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### - Linters installation:
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Light House: npm install -g @lhci/cli@0.7.x
-- Webhint: npm install --save-dev hint@7.x
-- Stylelint: npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-- ESLint: npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### - Installing Jest, Webpack, others ...
+## Learn More
 
-- Node packages: npm install.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Testing
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-you can test the web by the following commands:
+### Code Splitting
 
-- npm run test.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
 
-you can deploy your project through github pages.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-- make a repo for your project on github.
-- go to your project settings.
-- click on pages.
-- select the desired branch to deploy.
-- click save.
+### `npm run build` fails to minify
 
-## Author
-
-👤 **Erick Hans Martinez**
-
-- GitHub: [@erickhansx](https://github.com/erickhansx)
-- Twitter: [@TheErickHans](https://twitter.com/TheErickHans)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used.
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐ if you like this project!
-
-## 📝 License
-
-This project is [MIT](./LICENSE.md) licensed.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
