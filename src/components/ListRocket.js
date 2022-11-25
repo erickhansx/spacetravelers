@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import '../styles/Listrocket.css';
+import '../styles/Listrocket.scss';
 import Button from 'react-bootstrap/Button';
 import { useDispatch } from 'react-redux';
 import {

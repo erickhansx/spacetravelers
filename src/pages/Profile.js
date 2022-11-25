@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import Table from 'react-bootstrap/Table';
 import Nav from '../components/Nav';
-import '../styles/Profile.css';
+import '../styles/Profile.scss';
 import ProfileRockets from '../components/ProfileRockets';
 
 const Profile = () => {

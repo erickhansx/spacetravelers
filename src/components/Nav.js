@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import planet from '../images/planet.png';
-import '../styles/NavBar.css';
+import '../styles/NavBar.scss';
 
 const Nav = () => {
   const links = [
@@ -31,7 +31,12 @@ const Nav = () => {
         <ul className="pages">
           {links.map((link) => (
             <li id={link.id} key={link.id} className={`child${link.id}`}>
-              <NavLink to={link.path} className={({ isActive }) => (isActive ? 'navBar-link selected' : 'navBar-link')}>{link.text}</NavLink>
+              <NavLink
+                to={link.path}
+                className={({ isActive }) => (isActive ? 'navBar-link selected' : 'navBar-link')}
+              >
+                {link.text}
+              </NavLink>
             </li>
           ))}
         </ul>
